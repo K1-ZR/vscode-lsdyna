@@ -1,0 +1,25 @@
+{
+    "name": "vscode-lsdyna",
+    "displayName": "LS-DYNA",
+    "description": "LS-DYNA input file syntax highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ls-dyna",
+            "aliases": ["LS-DYNA", "k"],
+            "extensions": [".k"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ls-dyna",
+            "scopeName": "source.k",
+            "path": "./syntaxes/lsdyna.tmlanguage"
+        }]
+    }
+}
