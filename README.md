@@ -5,7 +5,7 @@ The package is generated using [Yo Code](https://code.visualstudio.com/docs/exte
 The `.tmlanguage` file used in this package is coppied from [this repository](https://github.com/bendeaton/LS-DYNA-Sublime). 
 
 # Settings
-You can add the following lines to 'User Settings' to hide indent guide and add 10-character wide rulers.
+You can add the following lines to `User Settings` to hide indent guide and add 10-character wide rulers.
 ```json
     "[ls-dyna]": {
         "editor.renderIndentGuides": false,
