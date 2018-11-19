@@ -1,5 +1,5 @@
-# LS-DYNA syntax highlighting for Visual Studio Code
-This is an LS-DYNA input file `.k` syntax highlighting for VSCode.
+# LS-DYNA syntax highlighting for VSCode
+This is an LS-DYNA input file `.k` syntax highlighting for [Visual Studio Code](https://code.visualstudio.com).
 The package is generated using [Yo Code](https://code.visualstudio.com/docs/extensions/yocode). 
 The `.tmlanguage` file used in this package is coppied from [here](https://github.com/bendeaton/LS-DYNA-Sublime). 
 
