@@ -2,7 +2,18 @@
 This is an LS-DYNA input file `.k` syntax highlighting for VSCode.
 The package is generated using [Yo Code](https://code.visualstudio.com/docs/extensions/yocode)
  
-The `.tmlanguage` file used in this package is coppied from [this repository](https://github.com/bendeaton/LS-DYNA-Sublime).  
+The `.tmlanguage` file used in this package is coppied from [this repository](https://github.com/bendeaton/LS-DYNA-Sublime). 
+
+# Settings
+You can add the following lines to 'User Settings' to hide indent guide and add 10-character wide rulers.
+```json
+    "[ls-dyna]": {
+        "editor.renderIndentGuides": false,
+        "editor.rulers": [
+            10, 20, 30, 40, 50, 60, 70, 80
+            ]
+    }
+```
 
 # Installation
 
